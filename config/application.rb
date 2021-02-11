@@ -34,5 +34,6 @@ module GOneTapHandler
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
     config.hosts << "ec2-34-228-160-124.compute-1.amazonaws.com"
+    config.hosts << "g-auth-afs-process.herokuapp.com"
   end
 end
